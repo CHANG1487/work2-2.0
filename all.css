@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 引入字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* 顏色 */
+:root {
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    
+    --neutral-0: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-600: #6C757D;
+    --neutral-900: #212529;
+}
+
+/* 標籤基本樣式 */
+body {
+    font-family: "Noto Sans TC";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: var(--neutral-900)
+}
+
+a {
+    text-decoration: none;
+    color: var(--neutral-900);
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--primary-400);
+}
+
+a:focus {
+    background-color: var(--primary-300);
+}
+
+/* 通用樣式 */
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-12 {
+    padding: 12px;
+}
+
+.p-12n {
+    padding: 12px 0;
+}
+
+.p-16 {
+    padding: 16px 0;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.ml-48 {
+    margin-left: 48px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
